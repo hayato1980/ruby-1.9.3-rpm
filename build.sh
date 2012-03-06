@@ -1,6 +1,6 @@
 #!/bin/bash
 
-rpm -q rpm-build rpmdevtools readline-devel ncurses-devel gdbm-devel tcl-devel openssl-devel db4-devel byacc
+rpm -q rpm-build rpmdevtools readline-devel ncurses-devel gdbm-devel tcl-devel openssl-devel db4-devel byacc libyaml-devel
 
 if [ $? -ne 0 ]; then
   echo "Some required packages is not installed."
