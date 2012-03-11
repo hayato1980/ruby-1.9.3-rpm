@@ -13,5 +13,5 @@ rpmdev-setuptree
 cd ${HOME}/rpmbuild/SOURCES
 wget http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p125.tar.gz
 cd ${HOME}/rpmbuild/SPECS
-cp ../../ruby-19.spec
+cp ../../ruby19.spec ./
 rpmbuild -bb ruby19.spec
