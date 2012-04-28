@@ -1,5 +1,5 @@
 %define rubyver         1.9.3
-%define rubyminorver    p125
+%define rubyminorver    p194
 
 Name:           ruby
 Version:        %{rubyver}%{rubyminorver}
@@ -63,5 +63,7 @@ rm -rf $RPM_BUILD_ROOT
 %{_libdir}
 
 %changelog
+* Sat Apr 28 2012 ITO Hayato <haya10.ito@gmail.com> - 1.9.3-p194-1
+- Spec to replace system ruby with 1.9.3-p194
 * Sat Feb 24 2012 Ian Meyer <ianmmeyer@gmail.com> - 1.9.3-p125-1
 - Spec to replace system ruby with 1.9.3-p125
